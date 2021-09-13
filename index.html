@@ -18,19 +18,20 @@
 </head>
 
 <body>
-  <header class="">
+  <!-- Header Part -->
+  <header>
+    <h1 class="text-center text-success fw-bold">AKL Store</h1>
   </header>
 
+  <!-- Main Part Start -->
   <main class="main">
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" placeholder="Search the products" />
-        <button type="button" class="btn btn-danger search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
-      </div>
+
+    <!-- Search Area -->
+    <div class="input-group search-area">
+      <input id="search-field" type="text" placeholder="Search The Product You Want">
+      <button class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
     </div>
+
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
